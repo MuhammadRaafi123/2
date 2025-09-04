@@ -1,0 +1,173 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #013220;
+    color: #ffffff;
+    line-height: 1.6;
+}
+header h1 {
+    width: 890px;
+    color: #ffffff;
+    margin-bottom: -20px;
+}
+
+header ul {
+    display: inline;
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: -10px;
+}
+
+header ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: -80rem;
+}
+.header .nav .ul .a {
+    height: 1000px;
+    width: 1000px;
+    margin-left: 20px;
+}
+.about{
+padding: 2rem 1rem;
+text-align: center;
+background: #024038;
+margin: 2rem 0;
+}
+.about-card img{ 
+    border: 2px solid rgb(255, 255, 255);
+    max-width: 100%;
+
+}
+
+.skills,
+.projects,
+.contact {
+    padding: 2rem 1rem;
+    text-align: center;
+    background: #024038;
+    margin: 2rem 0;
+}
+
+.skills-icons img {
+    width: 100px;
+    margin: 0 10px;
+}
+
+
+.projects .project img {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+form input,
+form textarea {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    background: #035d54;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn{
+    text-align: center;
+    border-radius: 50rem;
+    background-color: hsl(0, 0%, 100%);
+}
+.btn-1 {
+    border-radius: 20%;
+    background-color:#120000;
+    padding: 10px;
+    color: aqua;
+    text-decoration: none;
+    margin-left: 500px;
+    display: inline-block;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #022d2c;
+}
+.footer{
+    text-align: center;
+    background-color: #013220;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.about-card {
+    display: flex;
+    background-color: #035d54;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.);
+}
+
+.about-card img {
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.about-info h1{
+    color: #ffffff;
+    
+}
+
+.about-info h3 {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.about-info p {
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+.contact{
+    background-color: #022d2c;
+    height: 500px;
+}
+
+form input, form textarea{
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 5px;
+}
+
+.sosial-icon{
+    display:flex;
+    gap:10px;
+    margin-left: 560px;
+    margin-bottom: 15px; 
+    height: 30px;
+    width: 50px;   
+}
